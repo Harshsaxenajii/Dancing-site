@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title Document 
+    block scripts
+    block style
+          include ../static/style.css
+  body
+    block head 
+        nav#navbar 
+           div.navbar 
+            a(href="/") Home 
+            a(href="/facilities") Facilities 
+            a(href="/schedule") Schedule 
+            a(href="/contact")  ContactUs 
+    block content
+    block footer
+        section#footer
+        footer#footer 
+           div.footer
+            a(href="/") Home 
+            a(href="/facilities") Facilities 
+            a(href="/schedule") Schedule 
+            a(href="/contact")  ContactUs 
+
+    

@@ -1,0 +1,33 @@
+extends base.pug
+
+block scripts
+  script(src='../static/index.js')
+
+block style 
+    style
+          include ../static/style.css 
+
+block content
+    body 
+        //- this is the first containt
+        div#image
+            img(src="../static/1 bg.jpg", alt="img")
+            h3 TRY TRY BUT DON'T CRY 
+
+        div#image.image1
+            img(src="../static/2 bg.jpg", alt="img")
+            h3 READ EAT FIR DANCE REPEAT 
+
+        section#cardsection 
+            div.card
+                h4 “Dance is your pulse, your heartbeat, your breathing. It’s the rhythm of your life. It’s the expression in time and movement, in happiness, joy, sadness and envy.”
+            div.card
+                h4 “You have to love dancing to stick to it. It gives you nothing back, no manuscripts to store away, no paintings to show on walls and maybe hang in museums, no poems to be printed and sold, nothing but that fleeting moment when you feel alive. It is not for unsteady souls.” 
+            div.card
+                h4 “The moment is everything. Don’t think about tomorrow; don’t think about yesterday: think about exactly what you’re doing right now and live it and dance it and breath it and be it.”
+
+        div#image.im
+            img(src="../static/3 bg.jpg", alt="img")
+            h3 “To be fond of dancing was a certain step towards falling in love.” — Jane Austen
+
+    

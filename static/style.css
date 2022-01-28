@@ -1,0 +1,93 @@
+
+body{
+    /* background-image: url(/static/pexels-annam-w-1047442.jpg);
+    background-size: cover;
+    background-repeat: no repeat;  */
+    background-color: #fcc200;
+    margin: 0px;
+    padding: 0px;
+    font-size: 23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* background-image: url(/views/index.pug); */
+}
+
+
+h1{
+    color: white;
+}
+a{
+   text-decoration: none;
+   cursor: pointer;
+   color: white;
+   margin: 20px; 
+}
+a:hover{
+    color: #fd5800;
+}
+.navbar{
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    height: 60px;
+    top: 0px;
+    background-color: black;
+}
+    
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    display: list-item;
+}
+
+.footer{
+    /* border: 2px solid black; */
+    background-color: black;
+    position: absolute;
+    top: 1500px;
+    /* display: inline-block; */
+    
+    
+}
+
+#cardsection{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    border: 2px solid black;
+    
+    width: 50%;
+    margin: 35px;
+    height: 400px;
+    padding: 5px;
+
+}
+div.card{
+    background-color: white;
+    border-radius: 20px;
+}
+div.card:hover{
+    box-shadow: 5px 5px;
+
+}
+
+#image {
+    background-color: black;
+    position: relative;
+    top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+    
+}
+h3{
+    color: white;
+}
+
+.card{
+    background-color: white;
+}
